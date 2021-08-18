@@ -37,13 +37,52 @@ affecting other compoenents or th UI as a whole
 
 Types components
 -------------------
-1. Functional Components
+1. Function Components
 2. Class Components
 
 
 React JS Basics
 ----------------
+props - Shortcut for properties 
+
 props - We can use props to allow compoenenst to talk to each other
+
+-> Get passed co component function parameters
+-> props are immutable
+-> props - function component
+-> this.props - class component
 
 state - React updates UI based on the application state. 
       - This is actuallys stored as a property of react Class Compoement
+
+-> State is managed with in the component
+-> state can be changed
+-> useSate() - Function Component
+-> this.state - Class Component
+
+
+JSX - Javscript XML 
+-------------------
+Extension for javascript Language Syntax
+
+XML-Like code for elements and components
+
+JSX is not manadtory to write react compoenents
+
+JSX makes our code simplified and elegant
+
+JSX ultimately transpiles to pur javascript which is understood by the browsers
+
+Conditional Rendering
+----------------------
+1. if/else 
+2. Element variables 
+3. Ternary Operator 
+4. Short Circuit Operator
+
+Basics of Styling in React Components
+---------------------------------------
+1. CSS StyleSheet
+2. Inline Styling
+3. CSS Modules
+4. CSS in JSLibraries ( Using Boorstrap Already)
