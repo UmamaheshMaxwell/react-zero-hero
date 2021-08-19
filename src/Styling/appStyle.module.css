@@ -1,0 +1,11 @@
+.moduleError {
+    color:orangered
+}
+
+.moduleSuccess {
+    color: blue;
+}
+
+.test {
+    color:red;
+}

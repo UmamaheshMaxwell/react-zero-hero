@@ -8,17 +8,17 @@
 // import Student from './destructuting/Student';
 // import Greeting from './props/Greeting';
 // import Welcome from './props/Welcome';
-import  Fragment  from './components/class/Fragment';
-import UserGreeting from './conditional-rendering/UserGreeting';
-import UserGreetingOne from './conditional-rendering/UserGreetingOne';
-import UserGreetingThree from './conditional-rendering/UserGreetingThree';
-import UserGreetingTwo from './conditional-rendering/UserGreetingTwo';
-import NameList from './list-rendering/NameList';
-import NameListOne from './list-rendering/NameListOne';
-import NameListThree from './list-rendering/NameListThree';
-import NameListTwo from './list-rendering/NameListTwo';
-import Person from './list-rendering/Person';
-import StudentList from './list-rendering/StudentList';
+// import  Fragment  from './components/class/Fragment';
+// import UserGreeting from './conditional-rendering/UserGreeting';
+// import UserGreetingOne from './conditional-rendering/UserGreetingOne';
+// import UserGreetingThree from './conditional-rendering/UserGreetingThree';
+// import UserGreetingTwo from './conditional-rendering/UserGreetingTwo';
+// import NameList from './list-rendering/NameList';
+// import NameListOne from './list-rendering/NameListOne';
+// import NameListThree from './list-rendering/NameListThree';
+// import NameListTwo from './list-rendering/NameListTwo';
+// import Person from './list-rendering/Person';
+// import StudentList from './list-rendering/StudentList';
 // import Person from './destructuting/Person';
 // import ClassClick from './event-handling/ClassClick';
 // import EventBind from './event-handling/EventBind';
@@ -27,10 +27,31 @@ import StudentList from './list-rendering/StudentList';
 // import Counter from './state/Counter';
 // import Message from './state/Message';
 
+// import Stylesheet from "./Styling/Stylesheet";
+// import StyleSheetOne from "./Styling/StyleSheetOne";
+// import './Styling/appStyle.css'
+// import styles from './Styling/appStyle.module.css'
+// import Form from "./form-handling/Form";
+import Todo from "./ajax-calls/Todo";
+import TodoOne from "./ajax-calls/TodoOne";
+import User from "./ajax-calls/User";
+import FormOne from "./form-handling/FormOne";
+import LifeCycleParent from "./life-cycle/LifeCycleParent";
+
 function App() {
   return (
     <div className="container">
-      <Stylesheet />
+      <User />
+      {/* <TodoOne /> */}
+      {/* <Todo /> */}
+      {/* <LifeCycleParent /> */}
+      {/* <LifeCycle /> */}
+      {/* <FormOne /> */}
+      {/* <Form /> */}
+      {/* <h1 className="error">Error</h1>
+      <h1 className={styles.moduleSuccess}>Success</h1> */}
+      {/* <StyleSheetOne /> */}
+      {/* <Stylesheet /> */}
       {/* <StudentList /> */}
       {/* <Person /> */}
       {/* <NameListThree /> */}

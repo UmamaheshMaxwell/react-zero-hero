@@ -86,3 +86,99 @@ Basics of Styling in React Components
 2. Inline Styling
 3. CSS Modules
 4. CSS in JSLibraries ( Using Boorstrap Already)
+
+Life Cycle Methods
+-------------------
+When we create a React Compoenent it goes through several stages 
+in its life Cycle
+
+Note: Life Cycle Methods do not exist on function components
+      Only available on class components 
+
+4 Phases of lifecycle Methods
+-------------------------------
+Mounting 
+-----------
+When an instance of component is being created and inserted into the DOM 
+
+LifeCycle Methods 
+------------------
+-> constructor
+-> static getDerivedStateFromProps
+-> render
+-> componentDidMount 
+
+constructor - A special function that will get called whenever 
+              a new compoenent is created
+
+      When to use ? 
+      -------------
+      1. Initialize the state 
+      2. Binding the event handler
+
+      When not use ?
+      ---------------
+      When Making HTTP requests
+
+      Two Imporant things
+      --------------------
+      1. We have to call special function 'super' , this will call the 
+         base class constructor 
+         In our component we have access to this.props only after 
+         we initially called super passing the props 
+      2. This is the only place where we change or set the state directly 
+         overwriting thi.state fields 
+
+static getDerivedStrateFromProps
+----------------------------------
+Method is called every time a component is re-rendered
+
+-> we can set the state 
+-> Never use this method for HTTP Calls
+
+render()
+---------
+-> Only Required method in our Components (Class)
+- > We simply read props, state and return JSX
+-> Do not make HTTP calls 
+-> Right after the parent render method child 
+   component life Cycle methods are executed
+
+componentDidMount 
+---------------------
+-> Invoked immediately after a component and all its 
+   child compoenents have been rendered to the DOM   
+
+- > Place to make the Ajax Calls and load the data 
+
+Updating
+----------
+When a compoenent is being re-rendered as a result of changes to either its 
+props or state
+
+LifeCycle Methods 
+------------------
+-> static getDerivedStrateFromProps,
+-> shouldCompoenentUpdate
+-> render,
+-> getSnapShotBeforeUpdate
+-> compoenetDidUpdate
+
+Unmounting
+-----------
+When a compoenent is being removed from the DOM 
+
+LifeCycle Method
+------------------
+-> componentWillUnMount
+
+Error Handling  
+----------------
+When there is an error during the rendering in a life cycle method 
+or in the constructor of any child component
+
+LifeCycle Methods 
+------------------
+-> static getDerivedFromErrpr
+-> componentDidCatch
+
