@@ -32,16 +32,22 @@
 // import './Styling/appStyle.css'
 // import styles from './Styling/appStyle.module.css'
 // import Form from "./form-handling/Form";
+import Student from "./ajax-calls/Student";
 import Todo from "./ajax-calls/Todo";
 import TodoOne from "./ajax-calls/TodoOne";
 import User from "./ajax-calls/User";
 import FormOne from "./form-handling/FormOne";
 import LifeCycleParent from "./life-cycle/LifeCycleParent";
+import Routing from "./routing/Routing";
+import RoutingOne from "./routing/RoutingOne";
 
 function App() {
   return (
     <div className="container">
-      <User />
+      {/* <RoutingOne /> */}
+      <Routing />
+      {/* <Student /> */}
+      {/* <User /> */}
       {/* <TodoOne /> */}
       {/* <Todo /> */}
       {/* <LifeCycleParent /> */}

@@ -182,3 +182,25 @@ LifeCycle Methods
 -> static getDerivedFromErrpr
 -> componentDidCatch
 
+
+React Routing
+-----------------
+navigating to other pages
+
+we use react-router-dom
+
+BrowserRouter - Used for doing client-side Routing with URL Segments
+
+Switch - Returns only the first Matching Route rather than all matching routes
+
+Route - "Conditionally Shown Compoenent" based on matching a path to a URL 
+
+Link - Repacement for anchor tags
+
+React Hooks
+------------
+Hooks are new featire addition in react version 16.8
+Which allows us to use react features without having to write a class 
+
+e.g state od component
+
